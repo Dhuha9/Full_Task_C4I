@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#098CA5</color>
+
+    <color name="defaultTextColor">#000000</color>
+    <color name="defaultBackgroundColor">#f5f5f5</color>
+    <color name="defaultButtonBackgroundColor">#B4EBEBEB</color>
+    <!--for button style colors on default mode-->
+    <color name="buttonBackground">#00848C</color>
+    <color name="buttonClick">#004156</color>
+    <color name="iconsBackground">#2F435C</color>
+
+    <!--Dark Theme Colors-->
+    <color name="colorPrimaryNight">#212D3B</color>
+    <color name="colorPrimaryDarkNight">#1A242E</color>
+    <color name="colorAccentNight">#D1CD0B</color>
+    <color name="nightTextColor">#EFF5EF</color>
+    <color name="nightBackgroundColor">#2F435C</color>
+    <color name="nightButtonBackgroundColor">#212D3B</color>
+    <color name="nightIconsBackground">#1984D8</color>
+    <color name="hintColorNight">#8B8686</color>
+    <color name="cardViewBackground">#273B57</color>
+    <!--for button style colors on dark mode-->
+    <color name="buttonBackgroundNight">#2398AB</color>
+    <color name="buttonClickNight">#00848C</color>
+</resources>

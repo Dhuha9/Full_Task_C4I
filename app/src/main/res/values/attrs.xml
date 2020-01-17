@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="dcStyleable">
+        <attr name="textColorAttr" format="color" />
+        <attr name="mainBackgroundColorAttr" format="color" />
+        <attr name="ButtonBackgroundColorAttr" format="color" />
+        <attr name="IconsBackgroundColorAttr" format="color" />
+        <attr name="hintColorAttr" format="color" />
+        <attr name="cardViewBackgroundAttr" format="color"/>
+        <attr name="customButtonBackgroundColorAttr" format="color" />
+        <attr name="customButtonClickedAttr" format="color" />
+    </declare-styleable>
+</resources>

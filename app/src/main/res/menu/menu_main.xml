@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/addPerson"
+        android:icon="@drawable/ic_add_person"
+        android:title="Add Person"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+    <item
+        android:id="@+id/signOut"
+        android:icon="@drawable/ic_arrow_back"
+        android:title="Sign Out"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/changeTheme"
+        android:icon="@drawable/dark_theme"
+        android:title="Change Theme"
+        app:showAsAction="ifRoom" />
+
+</menu>

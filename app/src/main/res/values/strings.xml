@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Full Task C4I</string>
+    <string name="user_name">User Name</string>
+    <string name="log_in">Log In</string>
+    <string name="stay_signed_in">Stay Signed In</string>
+    <string name="password">Password</string>
+    <string name="no_value">There is no value</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="ads_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="interstitial_ads_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="full_name">Full Name</string>
+    <string name="saying">Saying</string>
+    <string name="person_info">Person Info</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="65dp"
+    android:background="@drawable/dialog_style"
+    android:layoutDirection="ltr"
+    android:minWidth="250dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:fontFamily="casual"
+        android:hint="@string/full_name"
+        android:textColor="?attr/textColorAttr"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtPersonSaying"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:fontFamily="casual"
+        android:hint="@string/saying"
+        android:textColor="?attr/textColorAttr"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtPersonInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:fontFamily="casual"
+        android:hint="@string/person_info"
+        android:textColor="?attr/textColorAttr"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/personImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:fontFamily="casual"
+        android:src="@drawable/ic_launcher_background"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAddOrUpdatePerson"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button_style"
+        android:fontFamily="casual"
+        android:textColor="?attr/textColorAttr"
+        android:textStyle="bold" />
+
+</LinearLayout>

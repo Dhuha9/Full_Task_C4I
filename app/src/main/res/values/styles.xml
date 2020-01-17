@@ -1,0 +1,35 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="textColorAttr">@color/defaultTextColor</item>
+        <item name="mainBackgroundColorAttr">@color/defaultBackgroundColor</item>
+        <item name="ButtonBackgroundColorAttr">@color/defaultBackgroundColor</item>
+<item name="IconsBackgroundColorAttr">@color/iconsBackground</item>
+        <!--        for custom-->
+        <item name="customButtonBackgroundColorAttr">@color/buttonBackground</item>
+        <item name="customButtonClickedAttr">@color/buttonClick</item>
+    </style>
+
+    <!-- dark application theme. -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="textColorAttr">@color/nightTextColor</item>
+        <item name="mainBackgroundColorAttr">@color/nightBackgroundColor</item>
+        <item name="ButtonBackgroundColorAttr">@color/nightButtonBackgroundColor</item>
+        <item name="IconsBackgroundColorAttr">@color/nightIconsBackground</item>
+        <item name="hintColorAttr">@color/hintColorNight</item>
+        <item name="cardViewBackgroundAttr">@color/cardViewBackground</item>
+
+        <!--        for custom-->
+        <item name="customButtonBackgroundColorAttr">@color/buttonBackgroundNight</item>
+        <item name="customButtonClickedAttr">@color/buttonClickNight</item>
+    </style>
+
+</resources>
